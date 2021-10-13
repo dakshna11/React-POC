@@ -21,7 +21,16 @@ function Header(props) {
             <p><Link className="words" to={'/Service'} > Service </Link></p>
             <p><Link className="words" to={'/Price'} > Price </Link></p>
             <p><Link className="words" to={'/Washing Points'} > Washing Points </Link></p>
-            <p><Link className="words" to={'/Pages'} > Pages </Link></p>
+            <p><Link className="words" to={'/Pages'} > Pages </Link>
+             <i id='caret-down' className ="fa fa-caret-down"></i>
+                <div className='dropdown-content'>
+                    <p>Blog Grid</p>
+                    <p>Detail Page</p>
+                    <p>Team Member</p>
+                    <p>Schedule Booking</p>
+                </div>
+            
+             </p>
             <p><Link className="words" to={'/Contact'} > Contact </Link></p>
             </div>
             <div><button id = "btn" onClick>Get Appointment</button></div>
