@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import img1 from './carousel-1.jpg'
-import img2 from './carousel-2.jpg'
-import img3 from './carousel-3.jpg'
+import img1 from '../img/carousel-1.jpg'
+import img2 from '../img/carousel-2.jpg'
+import img3 from '../img/carousel-3.jpg'
 class DemoCarousel extends Component {
     render() {
         return (

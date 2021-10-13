@@ -1,21 +1,67 @@
 import React from 'react';
+import {Link} from'react-router-dom'
 
 function Footer(props) {
     return (
         <div>
             <div className="footer-main">
                 <div className="footer">
-                <h3 id="footer-head" >Get In Touch<p style={{color:'white'}}>123 Street, New York, USA</p><p style={{color:'white'}}>+012 345 67890</p><p style={{color:'white'}}>info@example.com</p></h3>
-                <h3 id="footer-head" >Popular links<p className="words">About us</p><p className="words">Contact us</p><p className="words">Our service</p><p className="words">Service points</p><p className="words">Pricing plan</p></h3>
-                <h3 id="footer-head" >Useful links
+                <div id="footer-head" style={{marginLeft:'5%',marginRight:'3%'}}>
+                <span style={{fontWeight:'bold'}}>Get In Touch</span>
+                <p style={{color:'white'}}>123 Street, New York, USA</p>
+                <p style={{color:'white'}}>+012 345 67890</p>
+                <p style={{color:'white'}}>info@example.com</p>
+                <div style={{marginTop:'15%'}}>
+                    <button id="mybtn-social" style={{marginRight:'2%'}}><i className="fa fa-twitter"></i></button>
+                    <button id="mybtn-social" style={{marginRight:'2%'}}><i className="fa fa-facebook"></i></button>
+                    <button id="mybtn-social" style={{marginRight:'2%'}}><i className="fa fa-youtube-play"></i></button>
+                    <button id="mybtn-social" style={{marginRight:'2%'}}><i className="fa fa-instagram"></i></button>
+                    <button id="mybtn-social" style={{marginRight:'2%'}}><i className="fa fa-linkedin"></i></button>
+
+                </div>
+                </div>
+
+                <div id="footer-head" ><span style={{fontWeight:'bold'}}>Popular links</span>
+                    <Link className="wordsWP" to={'/Contact'}>
+                        <p className="words-footer">
+                            <i class="fa fa-chevron-right" style={{fontSize:'12px'}}></i>
+                            About us
+                        </p>
+                    </Link>
+                    <Link className="wordsWP" to={'/Contact'}>
+                        <p className="words-footer">
+                            <i class="fa fa-chevron-right" style={{fontSize:'12px'}}></i>
+                            Contact us
+                        </p>
+                    </Link>
+                    <Link className="wordsWP" to={'/Contact'}>
+                        <p className="words-footer">
+                            <i class="fa fa-chevron-right" style={{fontSize:'12px'}}></i>
+                            Our service
+                        </p>
+                    </Link>
+                    <Link className="wordsWP" to={'/Contact'}>
+                        <p className="words-footer">
+                            <i class="fa fa-chevron-right" style={{fontSize:'12px'}}></i>
+                            Service points
+                        </p>
+                    </Link>
+                    <Link className="wordsWP" to={'/Contact'}>
+                        <p className="words-footer">
+                            <i class="fa fa-chevron-right" style={{fontSize:'12px'}}></i>
+                            Pricing plan
+                        </p>
+                    </Link>
+                </div>
+                <div id="footer-head" ><span style={{fontWeight:'bold'}}>Useful links</span>
                 
-                    <p className="words">Terms of use</p>
-                    <p className="words">Privacy policy</p>
-                    <p className="words">Cookies</p>
-                    <p className="words">Help</p>
-                    <p className="words">FAQs</p>
+                <Link className="wordsWP" to={'/Contact'}><p className="words-footer"><i class="fa fa-chevron-right" style={{fontSize:'12px'}}></i>Terms of use</p></Link>
+                <Link className="wordsWP" to={'/Contact'}><p className="words-footer"><i class="fa fa-chevron-right" style={{fontSize:'12px'}}></i>Privacy policy</p></Link>
+                <Link className="wordsWP" to={'/Contact'}><p className="words-footer"><i class="fa fa-chevron-right" style={{fontSize:'12px'}}></i>Cookies</p></Link>
+                <Link className="wordsWP" to={'/Contact'}><p className="words-footer"><i class="fa fa-chevron-right" style={{fontSize:'12px'}}></i>Help</p></Link>
+                <Link className="wordsWP" to={'/Contact'}><p className="words-footer"><i class="fa fa-chevron-right" style={{fontSize:'12px'}}></i>FAQs</p></Link>
                 
-                </h3>
+                </div>
                 </div>
             <div className="form-main">
             <div className="footer-form">
@@ -24,9 +70,11 @@ function Footer(props) {
                             <form>
                                 <input className="form-control" placeholder="Full Name"/><br/>
                                 <input className="form-control" placeholder="Email"/><br/>
-                                <div ><button  id="btn-footer">Submit</button></div>
+                                <div style={{width:'100%'}}><button  id="btn-footer">Submit</button></div>
                             </form>
                         </div>
+                        <br/>
+                        <br/>
             </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import location from '../img/loc-mark.png'
 
 function WashingPoints(props) {
     return (
@@ -33,7 +34,7 @@ function WashingPoints(props) {
                             <div className="WP-row1">
                             <div >
                                 <div className="location-item">
-                                    <i ></i>
+                                    <img src={location} width='35px' height='35px' style={{paddingTop:'10%'}}></img>
                                     <div className="location-text">
                                         <h3>Car Washing Point</h3>
                                         <p>123 Street, New York, USA</p>
@@ -43,7 +44,7 @@ function WashingPoints(props) {
                             </div>
                             <div >
                                 <div className="location-item">
-                                    <i ></i>
+                                <img src={location} width='35px' height='35px' style={{paddingTop:'10%'}}></img>
                                     <div className="location-text">
                                         <h3>Car Washing Point</h3>
                                         <p>123 Street, New York, USA</p>
@@ -55,7 +56,7 @@ function WashingPoints(props) {
                             <div className="WP-row2">
                             <div >
                                 <div className="location-item">
-                                    <i ></i>
+                                    <img src={location} width='35px' height='35px' style={{paddingTop:'10%'}}></img>
                                     <div className="location-text">
                                         <h3>Car Washing Point</h3>
                                         <p>123 Street, New York, USA</p>
@@ -65,7 +66,7 @@ function WashingPoints(props) {
                             </div>
                             <div >
                                 <div className="location-item">
-                                    <i ></i>
+                                    <img src={location} width='35px' height='35px' style={{paddingTop:'10%'}}></img>
                                     <div className="location-text">
                                         <h3>Car Washing Point</h3>
                                         <p>123 Street, New York, USA</p>
