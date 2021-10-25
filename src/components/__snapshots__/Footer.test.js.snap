@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render the Footer Component correctly 1`] = `
+<div>
+  <div
+    className="footer-main"
+  >
+    <div
+      className="footer"
+    >
+      <div
+        id="footer-head"
+        style={
+          Object {
+            "marginLeft": "5%",
+            "marginRight": "3%",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Get In Touch
+        </span>
+        <p
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+        >
+          123 Street, New York, USA
+        </p>
+        <p
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+        >
+          +012 345 67890
+        </p>
+        <p
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+        >
+          info@example.com
+        </p>
+        <div
+          style={
+            Object {
+              "marginTop": "15%",
+            }
+          }
+        >
+          <button
+            id="mybtn-social"
+            style={
+              Object {
+                "marginRight": "2%",
+              }
+            }
+          >
+            <i
+              className="fa fa-twitter"
+            />
+          </button>
+          <button
+            id="mybtn-social"
+            style={
+              Object {
+                "marginRight": "2%",
+              }
+            }
+          >
+            <i
+              className="fa fa-facebook"
+            />
+          </button>
+          <button
+            id="mybtn-social"
+            style={
+              Object {
+                "marginRight": "2%",
+              }
+            }
+          >
+            <i
+              className="fa fa-youtube-play"
+            />
+          </button>
+          <button
+            id="mybtn-social"
+            style={
+              Object {
+                "marginRight": "2%",
+              }
+            }
+          >
+            <i
+              className="fa fa-instagram"
+            />
+          </button>
+          <button
+            id="mybtn-social"
+            style={
+              Object {
+                "marginRight": "2%",
+              }
+            }
+          >
+            <i
+              className="fa fa-linkedin"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        id="footer-head"
+      >
+        <span
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Popular links
+        </span>
+        <Link
+          className="wordsWP"
+          to="/Contact"
+        >
+          <p
+            className="words-footer"
+          >
+            <i
+              class="fa fa-chevron-right"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            />
+            About us
+          </p>
+        </Link>
+        <Link
+          className="wordsWP"
+          to="/Contact"
+        >
+          <p
+            className="words-footer"
+          >
+            <i
+              class="fa fa-chevron-right"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            />
+            Contact us
+          </p>
+        </Link>
+        <Link
+          className="wordsWP"
+          to="/Contact"
+        >
+          <p
+            className="words-footer"
+          >
+            <i
+              class="fa fa-chevron-right"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            />
+            Our service
+          </p>
+        </Link>
+        <Link
+          className="wordsWP"
+          to="/Contact"
+        >
+          <p
+            className="words-footer"
+          >
+            <i
+              class="fa fa-chevron-right"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            />
+            Service points
+          </p>
+        </Link>
+        <Link
+          className="wordsWP"
+          to="/Contact"
+        >
+          <p
+            className="words-footer"
+          >
+            <i
+              class="fa fa-chevron-right"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            />
+            Pricing plan
+          </p>
+        </Link>
+      </div>
+      <div
+        id="footer-head"
+      >
+        <span
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Useful links
+        </span>
+        <Link
+          className="wordsWP"
+          to="/Contact"
+        >
+          <p
+            className="words-footer"
+          >
+            <i
+              class="fa fa-chevron-right"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            />
+            Terms of use
+          </p>
+        </Link>
+        <Link
+          className="wordsWP"
+          to="/Contact"
+        >
+          <p
+            className="words-footer"
+          >
+            <i
+              class="fa fa-chevron-right"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            />
+            Privacy policy
+          </p>
+        </Link>
+        <Link
+          className="wordsWP"
+          to="/Contact"
+        >
+          <p
+            className="words-footer"
+          >
+            <i
+              class="fa fa-chevron-right"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            />
+            Cookies
+          </p>
+        </Link>
+        <Link
+          className="wordsWP"
+          to="/Contact"
+        >
+          <p
+            className="words-footer"
+          >
+            <i
+              class="fa fa-chevron-right"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            />
+            Help
+          </p>
+        </Link>
+        <Link
+          className="wordsWP"
+          to="/Contact"
+        >
+          <p
+            className="words-footer"
+          >
+            <i
+              class="fa fa-chevron-right"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            />
+            FAQs
+          </p>
+        </Link>
+      </div>
+    </div>
+    <div
+      className="form-main"
+    >
+      <div
+        className="footer-form"
+      >
+        <div
+          className="footer-newsletter"
+        >
+          <h3
+            id="footer-head"
+          >
+            Newsletter
+          </h3>
+          <form>
+            <input
+              className="form-control"
+              placeholder="Full Name"
+            />
+            <br />
+            <input
+              className="form-control"
+              placeholder="Email"
+            />
+            <br />
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <button
+                id="btn-footer"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        <br />
+        <br />
+      </div>
+    </div>
+  </div>
+  <div
+    class="copyright"
+  >
+    <p>
+      © 
+      <a
+        href="#"
+      >
+        AutoWash
+      </a>
+      , All Right Reserved. Designed By 
+      <a
+        href="https://htmlcodex.com"
+      >
+        Team React
+      </a>
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About should render the About Component correctly 1`] = `
+<div>
+  <div
+    className="about-us"
+  >
+    <div
+      className="about-container"
+    >
+      <h1
+        className="about-text"
+      >
+        About Us
+      </h1>
+      <p>
+        <Link
+          className="wordsWP"
+          to="/About"
+        >
+          Home 
+        </Link>
+        <Link
+          className="wordsWP"
+          to="/About"
+        >
+           Location
+        </Link>
+      </p>
+    </div>
+  </div>
+  <div
+    className="about-main"
+  >
+    <div
+      className="about-img"
+    >
+      <img
+        alt="Hello"
+        height="650px"
+        src="about.jpg"
+        style={
+          Object {
+            "borderRadius": "7px",
+          }
+        }
+        width="550px"
+      />
+    </div>
+    <div
+      className="about-content"
+    >
+      <p
+        className="about-heading"
+      >
+        ABOUT US
+      </p>
+      <h1>
+        Car Washing And Detailing
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet elit. In vitae turpis. Donec in hendre dui, vel blandit massa. Ut vestibu suscipi cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum
+      </p>
+      <p>
+        Seats washing
+      </p>
+      <p>
+        Vaccum cleaning
+      </p>
+      <p>
+        Interior wet cleaning
+      </p>
+      <p>
+        Window wiping
+      </p>
+      <button
+        id="btn-about"
+      >
+        Learn More
+      </button>
+    </div>
+  </div>
+</div>
+`;
