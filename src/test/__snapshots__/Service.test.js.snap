@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Service should render the Service Component correctly 1`] = `
+<div>
+  <div
+    className="about-us"
+  >
+    <div
+      className="about-container"
+    >
+      <h1
+        className="about-text"
+      >
+        Service
+      </h1>
+      <p>
+        Home / Service
+      </p>
+    </div>
+  </div>
+  <div>
+    <p
+      id="service-heading"
+    >
+      WHAT WE DO?
+    </p>
+    <h1
+      style={
+        Object {
+          "color": "#202c45",
+          "textAlign": "center",
+        }
+      }
+    >
+      Premium Washing Services
+    </h1>
+  </div>
+  <div
+    className="content1"
+  >
+    <div>
+      <img
+        height="50px"
+        src="car.png"
+        width="50px"
+      />
+      <h3>
+        Exterior Washing
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor
+      </p>
+    </div>
+    <div
+      style={
+        Object {
+          "marginLeft": "2%",
+        }
+      }
+    >
+      <img
+        height="50px"
+        src="interior.png"
+        width="50px"
+      />
+      <h3>
+        Interior Washing
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor
+      </p>
+    </div>
+    <div
+      style={
+        Object {
+          "marginLeft": "2%",
+        }
+      }
+    >
+      <img
+        height="50px"
+        src="vacuum-cleaner.png"
+        width="50px"
+      />
+      <h3>
+        Vaccum Cleaning
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor
+      </p>
+    </div>
+    <div
+      style={
+        Object {
+          "marginLeft": "2%",
+        }
+      }
+    >
+      <img
+        height="50px"
+        src="seat.png"
+        width="50px"
+      />
+      <h3>
+        Seats Washing
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor
+      </p>
+    </div>
+  </div>
+  <div
+    className="content2"
+  >
+    <div
+      style={
+        Object {
+          "marginLeft": "2%",
+        }
+      }
+    >
+      <img
+        height="50px"
+        src="window.png"
+        width="50px"
+      />
+      <h3>
+        Window Wiping
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor
+      </p>
+    </div>
+    <div
+      style={
+        Object {
+          "marginLeft": "2%",
+        }
+      }
+    >
+      <img
+        height="50px"
+        src="window.png"
+        width="50px"
+      />
+      <h3>
+        Wet Cleaning
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor
+      </p>
+    </div>
+    <div
+      style={
+        Object {
+          "marginLeft": "2%",
+        }
+      }
+    >
+      <img
+        height="50px"
+        src="car-oil.png"
+        width="50px"
+      />
+      <h3>
+        Oil Changing
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor
+      </p>
+    </div>
+    <div
+      style={
+        Object {
+          "marginLeft": "2%",
+        }
+      }
+    >
+      <img
+        height="50px"
+        src="brake.png"
+        width="50px"
+      />
+      <h3>
+        Brake Repair
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor
+      </p>
+    </div>
+  </div>
+</div>
+`;
