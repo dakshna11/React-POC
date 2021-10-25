@@ -1,20 +1,6 @@
 html{
     scroll-behavior: smooth;
 }
-.carousel{
-    z-index: -99;
-}
-#mybtn-topbar{
-    font-size: large;
-    font-weight: bolder;
-    border: none;
-    background-color:#202C45;
-    color:white;
-    margin-top: 25%;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-}
 #mybtn {
     display: none;
     position: fixed;
@@ -39,8 +25,8 @@ html{
   }
 
 .topbar{
+    justify-content: space-evenly;
     display: flex;
-    justify-content: space-around;
     max-height: 100px;
 }
 .topbar-main{
@@ -178,16 +164,7 @@ html{
     color: red; 
     font-weight:bold;
 }
-.about-heading::after{
-    position: absolute;
-    content: "";
-    width: 50px;
-    height: 2px;
-    left: calc(50% - 50px);
-    bottom: -13%;
-    left: 52.5%;
-    background: #ff0000;
-}
+
 .about-content{
     margin-top:13%;
     margin-left: 3%;
@@ -219,34 +196,8 @@ html{
     font-weight: bold;
     margin-top: 6%;
 }
-#washing-heading::after{
-    position: absolute;
-    content: "";
-    width: 50px;
-    height: 2px;
-    left: calc(50% - 50px);
-    bottom: 5%;
-    left: 48.5%;
-    background: #ff0000;
-}
-/*  Pricing styling*/
 
-#washing-heading{
-    color: #ff0000;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 6%;
-}
-#washing-heading::after{
-    position: absolute;
-    content: "";
-    width: 50px;
-    height: 2px;
-    left: calc(50% - 50px);
-    bottom: 5%;
-    left: 48.5%;
-    background: #ff0000;
-}
+/*  Pricing styling*/
 .price-main{
     display: flex;
     flex-direction: row;
@@ -464,7 +415,6 @@ html{
 }
 
 .dropdown-content {
-    margin-top: 18px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -473,7 +423,8 @@ html{
     text-align: justify;
     padding-left: 1%;
     cursor: pointer;
-    z-index: 100;
+    z-index: 1;
+
 }
 
  
@@ -505,7 +456,7 @@ html{
     margin-left: 7%;
     margin-right: 4%;
 }
-.Contact{
+.ContactForm{
     width: 50%;
     margin-left: 4%;
 }
@@ -600,10 +551,7 @@ html{
     height: 400px;
     border-radius: 5px;
 }
-.ContactForm{
-    width: 50%;
-    margin-left: 4%;
-}
+
 
 
 /* Footer styling */
@@ -725,9 +673,7 @@ color: #202C45;
     color: #ffffff;
 }
 
-/* Service styling*/
-
-
+/** Service component css **/
 #service-heading{
     text-align: center;
     color: #E81C2E;
