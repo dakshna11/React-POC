@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1634792406580" clover="3.2.0">
+  <project timestamp="1634792406580" name="All files">
+    <metrics statements="30" coveredstatements="14" conditionals="8" coveredconditionals="0" methods="16" coveredmethods="10" elements="54" coveredelements="24" complexity="0" loc="30" ncloc="30" packages="3" files="13" classes="13"/>
+    <package name="src">
+      <metrics statements="10" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="index.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\index.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="reportWebVitals.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\reportWebVitals.js">
+        <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components">
+      <metrics statements="12" coveredstatements="7" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="4"/>
+      <file name="App.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\App.js">
+        <metrics statements="9" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+      <file name="Footer.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\Footer.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="Header.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\Header.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="TopBar.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\TopBar.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.Header-comp">
+      <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
+      <file name="About.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\Header-comp\About.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="Carousel.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\Header-comp\Carousel.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="Contact.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\Header-comp\Contact.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="Home.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\Header-comp\Home.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="Price.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\Header-comp\Price.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="Service.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\Header-comp\Service.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="WashingPoints.js" path="C:\Users\dhinesh.kumarr\AutoWash-React\my-app\src\Components\Header-comp\WashingPoints.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
